@@ -59,10 +59,10 @@ class Classes extends HTMLElement {
                         }</b></div>
                         <div class="grade-label p_label ${
                             a.nota > 8
-                                ? "low-grade"
+                                ? "high-grade"
                                 : a.nota > 6
                                 ? "medium-grade"
-                                : "high-grade"
+                                : "low-grade"
                         }">CR: <b>${a.nota}</b></div>
                         </div>
                     </div>
